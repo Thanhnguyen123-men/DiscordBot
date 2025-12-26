@@ -11,7 +11,7 @@ from datetime import datetime
 # =========================
 TOKEN = os.getenv("DISCORD_TOKEN")
 DEFAULT_PREFIX = "!"
-OWNER_ID = 1379310041903140895
+OWNER_ID = YOUR_ID_DISCORD
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=DEFAULT_PREFIX, intents=intents, help_command=None)
@@ -277,3 +277,4 @@ async def help(ctx):
 
 # =========================
 bot.run(TOKEN)
+
